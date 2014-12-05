@@ -41,6 +41,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     audio.offload.gapless.enabled=false \
     av.offload.enable=true
 
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    camera2.portability.force_api=1
+
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196608
 
